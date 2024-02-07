@@ -1,0 +1,12 @@
+{
+  "item.personaladdition.cooked_egg": "Cooked Egg",
+  "item.personaladdition.honeyed_apple": "Honeyed Apple",
+  "item.personaladdition.toasted_bread": "Toasted Bread",
+  "item.personaladdition.apple_pie": "Apple Pie",
+  "item.personaladdition.diamond_nugget": "Diamond Nugget",
+  "item.personaladdition.copper_nugget": "Copper Nugget",
+
+  "itemgroup.ideas": "Ideas",
+
+  "block.personaladdition.paper_block": "Paper Block"
+}

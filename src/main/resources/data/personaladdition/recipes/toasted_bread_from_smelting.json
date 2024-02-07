@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:bread"
+  },
+  "result": "personaladdition:toasted_bread",
+  "experience": 0.35,
+  "cookingtime": 130
+}

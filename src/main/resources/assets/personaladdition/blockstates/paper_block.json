@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "personaladdition:block/paper_block"
+    }
+  }
+}

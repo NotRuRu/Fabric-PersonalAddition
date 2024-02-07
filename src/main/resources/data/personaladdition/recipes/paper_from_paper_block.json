@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "personaladdition:paper_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:paper",
+    "count": 9
+  }
+}

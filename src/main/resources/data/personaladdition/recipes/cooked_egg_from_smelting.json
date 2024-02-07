@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": "personaladdition:cooked_egg",
+  "experience": 0.35,
+  "cookingtime": 130
+}

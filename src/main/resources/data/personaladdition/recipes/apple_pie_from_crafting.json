@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "WSW",
+    " E "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:apple"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "personaladdition:apple_pie",
+    "count": 1
+  }
+}

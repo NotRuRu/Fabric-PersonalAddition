@@ -2,7 +2,9 @@ package net.notruru.personaladdition;
 
 import net.fabricmc.api.ModInitializer;
 
-
+import net.notruru.personaladdition.block.ModBlocks;
+import net.notruru.personaladdition.item.ModItemGroups;
+import net.notruru.personaladdition.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,7 +15,11 @@ public class PersonalAddition implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
-		LOGGER.info("Starting a new project!");
+
+		LOGGER.info("Hello Fabric world!");
 	}
 }

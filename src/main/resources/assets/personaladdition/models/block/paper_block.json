@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "personaladdition:block/paper_block_top",
+    "side": "personaladdition:block/paper_block_side"
+  }
+}

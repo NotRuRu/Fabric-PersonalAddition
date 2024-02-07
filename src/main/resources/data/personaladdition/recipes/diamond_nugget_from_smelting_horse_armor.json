@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:diamond_horse_armor"
+  },
+  "result": "personaladdition:diamond_nugget",
+  "experience": 0.35,
+  "cookingtime": 100
+}
