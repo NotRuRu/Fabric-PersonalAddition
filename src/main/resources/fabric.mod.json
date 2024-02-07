@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "personaladdition",
+	"version": "1.0",
+	"name": "Personal Addition",
+	"description": "Adding items I like in game",
+	"authors": [
+		"NotRuRu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/personaladdition/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.notruru.personaladdition.PersonalAddition"
+		],
+		"client": [
+			"net.notruru.personaladdition.PersonalAdditionClient"
+		],
+		"fabric-datagen": [
+			"net.notruru.personaladdition.PersonalAdditionDataGenerator"
+		]
+	},
+	"mixins": [
+		"personaladdition.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
